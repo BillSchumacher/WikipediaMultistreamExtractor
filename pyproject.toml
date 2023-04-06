@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "wikipedia_multistream_extractor"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Bill Schumacher", email="34168009+BillSchumacher@users.noreply.github.com" },
 ]
@@ -16,7 +16,9 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-
+dependencies = [
+  "click", "tqdm"
+]
 [project.urls]
 "Homepage" = "https://github.com/BillSchumacher/WikipediaMultistreamExtractort"
 "Bug Tracker" = "https://github.com/BillSchumacher/WikipediaMultistreamExtractor/issues"
